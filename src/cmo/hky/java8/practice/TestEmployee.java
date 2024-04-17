@@ -1,9 +1,6 @@
 package cmo.hky.java8.practice;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collector;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class TestEmployee {
@@ -30,7 +27,22 @@ public class TestEmployee {
 		Map<String,Long> noOfMaleFemaleEmployees=employeeList.stream()
 				.collect(Collectors.groupingBy(Employee::getGender,Collectors.counting()));
 		System.out.println("noOfMaleFemaleEmployees::"+noOfMaleFemaleEmployees);
-		
-
+		Optional<Employee> empOld =
+				employeeList.stream()
+						.sorted(Comparator.comparing(Employee::getAge))
+						.max(Comparator.comparing(Employee::getAge
+		));
+		Optional<Employee> empYoungest = employeeList.stream().sorted(Comparator.comparing(Employee::getAge)).min(Comparator.comparing(Employee::getAge
+		));
+		Optional<Employee> empYoung = employeeList.stream().min(Comparator.comparing(Employee::getAge
+		));
+//       Optional<Employee> emp=employeeList.stream().max(Comparator.comparing(Employee::getAge));
+		System.out.println("oldest::" + empOld);
+		System.out.println("empYoungest::" + empYoungest + "----" + empYoung);
+		System.out.println("========================== ====================================");
+		employeeList.stream().sorted(Comparator.comparing(Employee::getSalary)).limit(3).forEach(System.out::println);
+		System.out.println("==============================================================");
+		List<Employee> topHighesy = employeeList.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).limit(3).collect(Collectors.toList());
+	    topHighesy.forEach(System.out::println);
 	}
 }
