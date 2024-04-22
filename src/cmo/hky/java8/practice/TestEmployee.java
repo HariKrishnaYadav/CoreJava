@@ -23,7 +23,9 @@ public class TestEmployee {
 		employeeList.add(new Employee(244, "Nicolus Den", 24, "Male", "Sales And Marketing", 2017, 10700.5));
 		employeeList.add(new Employee(255, "Ali Baig", 23, "Male", "Infrastructure", 2018, 12700.0));
 		employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
-   //How many male and female employees  are there in  this organization
+		employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
+
+		//How many male and female employees  are there in  this organization
 		Map<String,Long> noOfMaleFemaleEmployees=employeeList.stream()
 				.collect(Collectors.groupingBy(Employee::getGender,Collectors.counting()));
 		System.out.println("noOfMaleFemaleEmployees::"+noOfMaleFemaleEmployees);
@@ -44,5 +46,7 @@ public class TestEmployee {
 		System.out.println("==============================================================");
 		List<Employee> topHighesy = employeeList.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).limit(3).collect(Collectors.toList());
 	    topHighesy.forEach(System.out::println);
+		System.out.println("==============================================================");
+		employeeList.stream().distinct().collect(Collectors.toList()).forEach(System.out::println);
 	}
 }
