@@ -1,4 +1,4 @@
-package com.hky.test;
+package com.hky.string;
 
 public class SentenceExchange {
     public static void main(String[] args) {
