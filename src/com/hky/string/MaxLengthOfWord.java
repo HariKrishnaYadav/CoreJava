@@ -6,9 +6,7 @@ public class MaxLengthOfWord {
 
         // Split the string into words
         String[] words = str.split(" ");
-
         int maxLength = 0;
-
         // Iterate through each word to find the maximum length
         for (String word : words) {
             int length = word.length();
