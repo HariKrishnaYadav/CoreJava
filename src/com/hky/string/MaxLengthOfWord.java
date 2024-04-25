@@ -16,7 +16,6 @@ public class MaxLengthOfWord {
                 maxLength = length;
             }
         }
-
         System.out.println("Maximum length of a word in the string: " + maxLength);
     }
 }
