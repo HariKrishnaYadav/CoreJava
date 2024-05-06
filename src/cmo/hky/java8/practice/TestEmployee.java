@@ -25,10 +25,19 @@ public class TestEmployee {
 		employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
 		employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
 
-		//How many male and female employees  are there in  this organization
+		System.out.println("======How many male and female employees  are there in  this organization=======");
 		Map<String,Long> noOfMaleFemaleEmployees=employeeList.stream()
 				.collect(Collectors.groupingBy(Employee::getGender,Collectors.counting()));
 		System.out.println("noOfMaleFemaleEmployees::"+noOfMaleFemaleEmployees);
+		System.out.println("=== Print the name of all departments in the organization?======");
+		employeeList.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
+		System.out.println("====What is the average age of male and female employees?=====");
+		Map<String,Double>  avgAge=employeeList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
+		System.out.println("avgAge::"+avgAge);
+		System.out.println("Get the details of highest paid employee in the organization?");
+		Optional<Employee> maxSalary = employeeList.stream().collect(Collectors.maxBy(Comparator.comparing(Employee::getSalary)));
+
+		System.out.println("maxSalary:"+maxSalary);
 		Optional<Employee> empOld =
 				employeeList.stream()
 						.sorted(Comparator.comparing(Employee::getAge))

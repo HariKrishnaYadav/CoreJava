@@ -13,6 +13,7 @@ static void findDuplicate(String string) {
 	char[] charArray=string.toCharArray();
 	    for (char c : charArray) {
 	    	if(countDuplicateElement.containsKey(c)) {
+				//System.out.println("countDuplicateElement.get(c)::"+countDuplicateElement.get(c));
 	    		countDuplicateElement.put(c, countDuplicateElement.get(c)+1);
 	    	}else {
 	    		countDuplicateElement.put(c, 1);
