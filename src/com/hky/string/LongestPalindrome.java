@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class LongestPalindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your longest palindrom:");
+        System.out.println("Enter a sentence:");
         String longP = sc.nextLine();
 
-        System.out.print("Longest Palindrom:" + findLonestPalindrom(longP));
+        System.out.print("Longest palindrome word:" + findLonestPalindrom(longP));
     }
 
     private static String findLonestPalindrom(String longP) {
