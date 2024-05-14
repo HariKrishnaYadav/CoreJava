@@ -7,6 +7,8 @@ public class Test {
         for(int i=rev.length-1;i>=0;i--){
             System.out.print(rev[i]+" ");
         }
+        String reverse=new StringBuilder(str).reverse().toString();
+        System.out.println("reverse:"+reverse);
 
 //       for(String r:rev){
 //           System.out.print(r+" ");

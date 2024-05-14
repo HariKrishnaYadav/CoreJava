@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class LongestPalindromeWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //Madam Arora teaches Malayalam
         System.out.println("Enter a sentence:");
         String sentence = scanner.nextLine();
 

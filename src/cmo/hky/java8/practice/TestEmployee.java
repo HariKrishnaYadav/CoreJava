@@ -4,6 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class TestEmployee {
+	private List<Employee> employeeList;
+
 	public static void main(String[] args) {
 		List<Employee> employeeList = new ArrayList<Employee>();
 
@@ -57,5 +59,12 @@ public class TestEmployee {
 	    topHighesy.forEach(System.out::println);
 		System.out.println("==============================================================");
 		employeeList.stream().distinct().collect(Collectors.toList()).forEach(System.out::println);
+	    employeeList.stream().filter(e->e.getSalary()>5000 && e.getSalary()<30000).findFirst().ifPresent(e->System.out.println("findFirst:"+e));
+		employeeList.stream().filter(e->e.getSalary()>5000 && e.getSalary()<30000).mapToDouble(e->e.getSalary()).findFirst().ifPresent(e->System.out.println("findFirst:"+e));
+         //employeeList.stream().
+
+
 	}
+
+
 }
