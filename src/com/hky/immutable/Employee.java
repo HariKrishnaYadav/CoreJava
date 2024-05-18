@@ -30,7 +30,8 @@ public final class Employee {
     }
 
     public Address getAddress() {
-        return new Address(address.getZip(),address.getCity());
+        return
+                new Address(address.getZip(),address.getCity());
     }
 
     @Override
