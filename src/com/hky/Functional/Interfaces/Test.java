@@ -10,4 +10,5 @@ public class Test implements B{
     public void m1() {
 
     }
+    //final
 }

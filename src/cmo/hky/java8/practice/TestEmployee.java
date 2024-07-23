@@ -35,6 +35,12 @@ public class TestEmployee {
 		employeeList.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
 		System.out.println("====What is the average age of male and female employees?=====");
 		Map<String,Double>  avgAge=employeeList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
+		employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment));
+
+		long count = employeeList.stream()
+				.map(Employee::getDepartment).distinct()
+				.count();
+		System.out.println("count:" + count);
 		System.out.println("avgAge::"+avgAge);
 		System.out.println("Get the details of highest paid employee in the organization?");
 		Optional<Employee> maxSalary = employeeList.stream().collect(Collectors.maxBy(Comparator.comparing(Employee::getSalary)));
@@ -42,10 +48,9 @@ public class TestEmployee {
 		System.out.println("maxSalary:"+maxSalary);
 		Optional<Employee> empOld =
 				employeeList.stream()
-						.sorted(Comparator.comparing(Employee::getAge))
 						.max(Comparator.comparing(Employee::getAge
 		));
-		Optional<Employee> empYoungest = employeeList.stream().sorted(Comparator.comparing(Employee::getAge)).min(Comparator.comparing(Employee::getAge
+		Optional<Employee> empYoungest = employeeList.stream().min(Comparator.comparing(Employee::getAge
 		));
 		Optional<Employee> empYoung = employeeList.stream().min(Comparator.comparing(Employee::getAge
 		));
@@ -58,10 +63,12 @@ public class TestEmployee {
 		List<Employee> topHighesy = employeeList.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).limit(3).collect(Collectors.toList());
 	    topHighesy.forEach(System.out::println);
 		System.out.println("==============================================================");
+		employeeList.stream().filter(e->e.getSalary()>5000&& e.getName().startsWith("M")).forEach(e-> System.out.println("salary::"+e.gender));
 		employeeList.stream().distinct().collect(Collectors.toList()).forEach(System.out::println);
 	    employeeList.stream().filter(e->e.getSalary()>5000 && e.getSalary()<30000).findFirst().ifPresent(e->System.out.println("findFirst:"+e));
 		employeeList.stream().filter(e->e.getSalary()>5000 && e.getSalary()<30000).mapToDouble(e->e.getSalary()).findFirst().ifPresent(e->System.out.println("findFirst:"+e));
          //employeeList.stream().
+		employeeList.stream().filter(e -> e.getSalary() > 500).forEach(employee -> System.out.println(employee.getName()));
 
 
 	}

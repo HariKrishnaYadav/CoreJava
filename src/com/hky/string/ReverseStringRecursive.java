@@ -7,9 +7,13 @@ public class ReverseStringRecursive {
     }
 
     private static String revString(String str) {
-        if (str.length() == 1)
+        if (str.length() == 1) {
+
             return str;
-        else return str.charAt(str.length() - 1) + revString(str.substring(0, str.length() - 1));
+
+        }else
+            //System.out.println(str.charAt(str.length() - 1));
+            return str.charAt(str.length() - 1) + revString(str.substring(0, str.length() - 1));
     }
 
 }
