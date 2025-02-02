@@ -20,6 +20,13 @@ public class AnagramFinder {
                 }else {
                     anagram.put(sortedWord, new ArrayList<>(Arrays.asList(word)));
                 }
+
+
+
+
+
+
+
                 for (List<String> anagramGroup : anagram.values()) {
                     if (anagramGroup.size() > 1) {
                         System.out.println(anagramGroup);
