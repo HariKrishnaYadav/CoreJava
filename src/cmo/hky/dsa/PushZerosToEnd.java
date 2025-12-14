@@ -1,4 +1,4 @@
-package cmo.hky.java8.practice.arrays.dsa;
+package cmo.hky.dsa;
 
 public class PushZerosToEnd {
     public static void main(String[] args) {

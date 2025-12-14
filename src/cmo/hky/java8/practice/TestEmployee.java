@@ -69,8 +69,8 @@ public class TestEmployee {
 		employeeList.stream().filter(e->e.getSalary()>5000 && e.getSalary()<30000).mapToDouble(e->e.getSalary()).findFirst().ifPresent(e->System.out.println("findFirst:"+e));
          //employeeList.stream().
 		employeeList.stream().filter(e -> e.getSalary() > 500).forEach(employee -> System.out.println(employee.getName()));
-
-
+       Map<Boolean, List<Employee>> ageGroup=employeeList.stream().collect(Collectors.groupingBy(e->e.getSalary()>100000));
+       System.out.println("ageGroup::"+ageGroup);
 	}
 
 

@@ -16,6 +16,7 @@ public class FlatMapUseCase {
         System.out.println("-------------------------");
         List<Integer> merglist = listOfListofInts.stream().flatMap(l -> l.stream()).collect(Collectors.toList());
         System.out.println(merglist.stream().distinct().toList());
+        merglist.stream().distinct().forEach(l->System.out.print(l+" "));
 
     }
 }

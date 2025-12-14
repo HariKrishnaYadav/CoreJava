@@ -10,7 +10,7 @@ public class StreamToIntegerArray {
         List<Integer> list = Arrays.asList(10, 20, 30, 40, 20, 10,2,7,3,8,3,7,3,7,3,7);
         Map<Integer, Integer> map = new HashMap<>();
         int count=1;
-        for (Integer l : list) {
+        for (var l : list) {
 
             if (map.containsKey(l)) {
 
