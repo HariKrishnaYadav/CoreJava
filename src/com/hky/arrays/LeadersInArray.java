@@ -10,7 +10,7 @@ public class LeadersInArray {
         int n = arr.length;
         int maxFromRight = arr[n - 1];
 
-        // The rightmost element is always a leader
+            // The rightmost element is always a leader
         System.out.print(maxFromRight + " ");
 
         // Traverse the array from right to left

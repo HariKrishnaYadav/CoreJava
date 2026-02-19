@@ -7,6 +7,7 @@ public class AnagramFilter {
         List<String> words = Arrays.asList("eat", "tea", "ate", "nap", "pan");
         List<List<String>> anagram = filterAnagram(words);
         System.out.println(anagram);
+
     }
 
     private static List<List<String>> filterAnagram(List<String> words) {
@@ -23,4 +24,5 @@ public class AnagramFilter {
         Arrays.sort(chr);
         return new String(chr);
     }
+
 }

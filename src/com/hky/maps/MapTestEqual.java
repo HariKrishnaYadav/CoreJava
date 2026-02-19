@@ -1,6 +1,6 @@
 package com.hky.maps;
 
-import cmo.hky.java8.practice.Employee;
+import cmo.hky.java8code.Employee;
 
 import java.util.HashMap;
 

@@ -1,6 +1,6 @@
 package com.hky.arrays;
 
-import cmo.hky.java8.practice.Employee;
+import cmo.hky.java8code.Employee;
 
 public class ArraysOfObjects {
     public static void main(String[] args) {

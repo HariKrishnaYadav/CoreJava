@@ -15,8 +15,8 @@ public class sentencePalindrome {
     }
 
     private static boolean isPalindrom(String sentence) {
-        String str = sentence.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
-
+        //String str = sentence.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+        String str = sentence.toLowerCase();
         int left = 0;
         int right = str.length() - 1;
         while (left < right) {

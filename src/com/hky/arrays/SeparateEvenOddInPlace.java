@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SeparateEvenOddInPlace {
     public static void main(String[] args) {
-        int[] input = {1, 3, 45, 2, 67, 10};
+        int[] input = {1, 3, 45, 2, 67, 9,12,10};
 
         separateEvenOdd(input);
 

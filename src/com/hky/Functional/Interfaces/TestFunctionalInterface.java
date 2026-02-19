@@ -1,6 +1,6 @@
 package com.hky.Functional.Interfaces;
 
-import cmo.hky.java8.practice.Student;
+import cmo.hky.java8code.Student;
 
 import java.util.ArrayList;
 import java.util.List;

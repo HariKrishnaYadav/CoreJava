@@ -11,6 +11,7 @@ public class Demo {
         // Works fine with MotorCycle - implements all Bike class behavior
         motorCycle.turnOnEngine();
         motorCycle.accelerate();
+
         motorCycle.applyBrakes();
         motorCycle.turnOffEngine();
         // Works fine with Bicycle - implements all Bike class behavior
