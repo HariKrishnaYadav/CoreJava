@@ -21,5 +21,10 @@ public class MinMax {
                 .findFirst()
                 .orElse("NA");
         System.out.println(output);
+        System.out.println("------------------");
+        String min = list.stream().min(Comparator.comparing(String::length)).get();
+        System.out.println(min);
+        String max = list.stream().max(String::compareTo).get();
+        System.out.println(max);
     }
 }

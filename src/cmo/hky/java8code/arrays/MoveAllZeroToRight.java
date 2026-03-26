@@ -21,5 +21,6 @@ public class MoveAllZeroToRight {
 
             arr[count++] = 0;
         }
+
     }
 }

@@ -15,6 +15,12 @@ public class Java11Test {
         System.out.println("line1\nline2\nline3".lines().toList()); //[line1, line2, line3]
         System.out.println("line1\nline2\nline3".lines().toArray()); //[Ljava.lang.String;@15db9742
         System.out.println("hi".repeat(3)); //hihihi
+        String h = " hare krishna ";
+        System.out.println(h.stripLeading());
+        String str1= "GeeksForGeeks ";
+        System.out.println(str1.stripTrailing());
+        String str2 = " GeeksForGeeks ";
+        System.out.println(str2.strip());
         //HTTP Client API (supports HTTP/2 & WebSockets)
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()

@@ -9,6 +9,10 @@ import java.util.stream.Collectors;
 public class Java8Code {
     public static void main(String[] args) {
         List<Integer> listOfIntegers = Arrays.asList(71, 18, 42, 21, 67, 32, 95, 14, 56, 87);
+               listOfIntegers.stream().collect(Collectors.groupingBy(i->i%2==0 ?"Even":"Odd")).forEach((k,v)->{
+                   System.out.println(k+" numbers: "+v);
+               });
+
         Map<Boolean, List<Integer>> oddEvenNumbersMap =
                 listOfIntegers.stream().collect(Collectors.partitioningBy(i -> i % 2 != 0));
         System.out.println(oddEvenNumbersMap);
