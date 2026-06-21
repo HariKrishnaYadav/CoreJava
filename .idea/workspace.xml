@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a48a7e2-6e3a-446f-83ab-36133ee87175" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/AnagramCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/FlatMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/Java8Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/StudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CoreJava1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/CommonChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/CommonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/PersonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/lambda/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/lambda/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/threads/CompletableFutureExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,18 +59,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnagramCheck.executor": "Run",
+    "Application.BankAccount.executor": "Run",
+    "Application.BookTest.executor": "Run",
+    "Application.CommonChars.executor": "Run",
+    "Application.CommonString.executor": "Run",
+    "Application.CompletableFutureExample.executor": "Run",
     "Application.ExecutorTest.executor": "Run",
+    "Application.FindDuplicateNumber.executor": "Run",
     "Application.FindFirstRepeatedCharacter.executor": "Run",
     "Application.FindNonRepeatedCharacter.executor": "Run",
     "Application.FindSecondRepeatedCharacter.executor": "Run",
     "Application.FlatMapTest.executor": "Run",
     "Application.Java8Code.executor": "Run",
+    "Application.Lambda.executor": "Run",
     "Application.MapTest.executor": "Run",
+    "Application.Person.executor": "Debug",
+    "Application.PersonDemo.executor": "Debug",
     "Application.ReverseString.executor": "Run",
     "Application.StudentDemo.executor": "Run",
+    "Application.Test.executor": "Debug",
     "Application.TestEmployee.executor": "Run",
     "Application.TestStrategy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
@@ -77,9 +94,22 @@
       <recent name="com.hky.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentDemo">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.AnagramCheck" />
+  <component name="RunManager" selected="Application.BookTest">
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.sorts.BookTest" />
+      <module name="CoreJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hky.interview.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.CommonChars" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.Java8Code" />
+    <configuration name="CommonString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.CommonString" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.ReverseString" />
+    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.java8code.arrays.FindDuplicateNumber" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.java8code.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.StudentDemo" />
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.lambda.Lambda" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.TestEmployee" />
-      <module name="CoreJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.interview.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentDemo" />
-        <item itemvalue="Application.Java8Code" />
-        <item itemvalue="Application.AnagramCheck" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.TestEmployee" />
+        <item itemvalue="Application.BookTest" />
+        <item itemvalue="Application.Lambda" />
+        <item itemvalue="Application.CommonString" />
+        <item itemvalue="Application.CommonChars" />
+        <item itemvalue="Application.FindDuplicateNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -170,12 +187,114 @@
       <option name="project" value="LOCAL" />
       <updated>1781606311085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1781777925079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781777925079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added interview code" />
     <option name="LAST_COMMIT_MESSAGE" value="added interview code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Person.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Person.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
+          <line>4</line>
+          <properties class="com.hky.interview.Test" method="methodA">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/hky/interview/PersonDemo.java</url>
+          <line>3</line>
+          <properties class="com.hky.interview.PersonDemo" method="methodA">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
