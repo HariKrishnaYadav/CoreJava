@@ -1,4 +1,4 @@
-package com.hky.objects.abs;
+package com.hky.number.abs;
 
 public class B extends A {
     static {

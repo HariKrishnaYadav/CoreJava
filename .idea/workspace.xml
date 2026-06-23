@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a48a7e2-6e3a-446f-83ab-36133ee87175" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/.idea/CoreJava1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/CommonChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/CommonString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/PersonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/lambda/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/threads/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/dsa/array/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/dsa/array/SubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/functional/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/functional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/functional/Predicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/functional/SupplierDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/abs/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/abs/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/abs/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/abs/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/abs/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/abs/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/ds/array/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/LargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/ds/array/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/SecondLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/ds/array/SmallestAndSecondsmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/SmallestAndSecondsmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/ds/array/ThirdLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/ThirdLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/objects/ds/array/pushZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/number/pushZerosToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +57,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlternateElements.executor": "Run",
     "Application.AnagramCheck.executor": "Run",
     "Application.BankAccount.executor": "Run",
     "Application.BookTest.executor": "Run",
     "Application.CommonChars.executor": "Run",
     "Application.CommonString.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
+    "Application.ConsumerDemo.executor": "Run",
     "Application.ExecutorTest.executor": "Run",
     "Application.FindDuplicateNumber.executor": "Run",
     "Application.FindFirstRepeatedCharacter.executor": "Run",
@@ -72,21 +73,27 @@
     "Application.FlatMapTest.executor": "Run",
     "Application.Java8Code.executor": "Run",
     "Application.Lambda.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MapTest.executor": "Run",
     "Application.Person.executor": "Debug",
     "Application.PersonDemo.executor": "Debug",
+    "Application.Predicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
     "Application.StudentDemo.executor": "Run",
+    "Application.SubarraySum.executor": "Run",
+    "Application.SupplierDemo.executor": "Run",
     "Application.Test.executor": "Debug",
     "Application.TestEmployee.executor": "Run",
     "Application.TestStrategy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hare/Desktop/coreJava/CoreJava1/com/hky/number",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,13 +101,13 @@
       <recent name="com.hky.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookTest">
-    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.sorts.BookTest" />
+  <component name="RunManager" selected="Application.SecondLargest">
+    <configuration name="AlternateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.dsa.array.AlternateElements" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.sorts.*" />
+          <option name="PATTERN" value="com.hky.dsa.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.CommonChars" />
+    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.functional.Predicates" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.interview.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.CommonString" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.number.SecondLargest" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.java8code.arrays.FindDuplicateNumber" />
+    <configuration name="SubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.dsa.array.SubarraySum" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.java8code.arrays.*" />
+          <option name="PATTERN" value="com.hky.dsa.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.lambda.Lambda" />
+    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.functional.SupplierDemo" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.lambda.*" />
+          <option name="PATTERN" value="com.hky.interview.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookTest" />
-        <item itemvalue="Application.Lambda" />
-        <item itemvalue="Application.CommonString" />
-        <item itemvalue="Application.CommonChars" />
-        <item itemvalue="Application.FindDuplicateNumber" />
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.AlternateElements" />
+        <item itemvalue="Application.SubarraySum" />
+        <item itemvalue="Application.SupplierDemo" />
+        <item itemvalue="Application.Predicates" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781777925079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1782057872732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782057872732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

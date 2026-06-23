@@ -1,4 +1,4 @@
-package com.hky.objects.ds.array;
+package com.hky.number;
 
 public class pushZerosToEnd {
     static void pushZerosToEnd(int[] arr) {

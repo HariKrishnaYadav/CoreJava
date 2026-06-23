@@ -1,4 +1,4 @@
-package com.hky.objects.ds.array;
+package com.hky.number;
 
 public class LargestNumber {
     public static void main(String[] args) {

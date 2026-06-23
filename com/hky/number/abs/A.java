@@ -1,4 +1,4 @@
-package com.hky.objects.abs;
+package com.hky.number.abs;
 
 public class A {
     static int i = 1111;
