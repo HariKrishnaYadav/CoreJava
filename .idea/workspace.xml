@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a48a7e2-6e3a-446f-83ab-36133ee87175" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/bin/com/hky/java21/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/com/hky/splits/SplitUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/MyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/PrimitiveExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/PrimitiveExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/HDFC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/InstanaceOfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/PNB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/PnbCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/SBI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/Java17/SbiCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/completedFuture/CompletedFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/completedFuture/exceptions/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/map/JavaMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/AnagramCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/FindFirstNonRepeatCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/PalindromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/PangramCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/dsa/string/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/sorts/RearrangeBasedOnElementOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/java8code/FindFirstAndFindAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/java8code/FlatMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/java8code/grouping/GroupBased.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/java8code/grouping/GroupBasedOnLenght.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/java8code/grouping/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/hky/designPattern/singleton/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/com/hky/designPattern/singleton/EmployeeThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/TestEmployeeReturnClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,6 +87,7 @@
     "Application.ReferenceExample.executor": "Debug",
     "Application.ReverseString.executor": "Run",
     "Application.SecondLargest.executor": "Run",
+    "Application.SortedTest.executor": "Run",
     "Application.SplitUseCase.executor": "Run",
     "Application.StudentDemo.executor": "Run",
     "Application.SubarraySum.executor": "Run",
@@ -127,7 +99,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hare/Desktop/coreJava/CoreJava1/com/hky/number",
+    "last_opened_file_path": "/Users/hare/Desktop/CoreJava1/com/hky",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -136,27 +108,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/hky" />
       <recent name="$PROJECT_DIR$/com/hky/number" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bin.com.hky.designPattern.singleton" />
       <recent name="com.hky.Call.by.Value.in.Different.Scenarios" />
       <recent name="com.hky.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayExample">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.ArrayExample" />
-      <module name="CoreJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortedTest">
     <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hky.completedFuture.exceptions.ExceptionTest" />
       <module name="CoreJava1" />
@@ -209,9 +170,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.SortedTest" />
+      <module name="CoreJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.SortedTest" />
         <item itemvalue="Application.ReferenceExample" />
         <item itemvalue="Application.PrimitiveExample1" />
         <item itemvalue="Application.PrimitiveExample" />
@@ -260,8 +234,35 @@
       <option name="project" value="LOCAL" />
       <updated>1782187866819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1783133616157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783133616157</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1783133983955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783133983955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added interview code" />
