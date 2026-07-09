@@ -30,6 +30,12 @@ public class SortedTest {
                                 .orElse(null)
                 ))
                 .forEach(System.out::println);
-        list.stream().filter(e->e.getSalary().equals(list.stream().map(Employee::getSalary).distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(null))).forEach(System.out::println);
+        System.out.println();
+        list.stream().filter(e->e.getSalary()
+                .equals(list.stream().map(Employee::getSalary).distinct()
+                        .sorted(Comparator.reverseOrder()).skip(1)
+                        .findFirst().orElse(null))).forEach(System.out::println);
+
+
     }
 }

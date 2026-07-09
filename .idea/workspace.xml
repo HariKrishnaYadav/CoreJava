@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a48a7e2-6e3a-446f-83ab-36133ee87175" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/bin/com/hky/designPattern/singleton/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/com/hky/designPattern/singleton/EmployeeThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/TestEmployeeReturnClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/strings/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/TestEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_/Users/hare/Desktop/CoreJava1" value="3G2pdpZxqpwmH2IX0HW9sBED1hD" />
       <entry key="_/Users/hare/Desktop/coreJava/CoreJava1" value="3FAcMMjVgYQ2On2C68iZPjPHQ69" />
     </persistenceIdMap>
   </component>
@@ -46,66 +46,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlternateElements.executor": "Run",
-    "Application.AnagramCheck.executor": "Run",
-    "Application.ArrayExample.executor": "Run",
-    "Application.BankAccount.executor": "Run",
-    "Application.BankTest.executor": "Run",
-    "Application.BookTest.executor": "Run",
-    "Application.CommonChars.executor": "Run",
-    "Application.CommonString.executor": "Run",
-    "Application.CompletableFutureExample.executor": "Run",
-    "Application.CompletedFutureTest.executor": "Run",
-    "Application.ConsumerDemo.executor": "Run",
-    "Application.CountWords.executor": "Run",
-    "Application.CountWorld.executor": "Run",
-    "Application.ExceptionTest.executor": "Run",
-    "Application.ExecutorTest.executor": "Run",
-    "Application.FindDuplicateNumber.executor": "Run",
-    "Application.FindFirstAndFindAny.executor": "Run",
-    "Application.FindFirstNonRepeatCharacter.executor": "Run",
-    "Application.FindFirstRepeatedCharacter.executor": "Run",
-    "Application.FindNonRepeatedCharacter.executor": "Run",
-    "Application.FindSecondRepeatedCharacter.executor": "Run",
-    "Application.FlatMapTest.executor": "Run",
-    "Application.GroupBased.executor": "Run",
-    "Application.GroupBasedOnLenght.executor": "Run",
-    "Application.Java8Code.executor": "Run",
-    "Application.JavaMap.executor": "Run",
-    "Application.Lambda.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapTest.executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.PangramCheck.executor": "Run",
-    "Application.Person.executor": "Debug",
-    "Application.PersonDemo.executor": "Debug",
-    "Application.Predicates.executor": "Run",
-    "Application.PrimitiveExample.executor": "Run",
-    "Application.PrimitiveExample1.executor": "Run",
-    "Application.ReferenceExample.executor": "Debug",
-    "Application.ReverseString.executor": "Run",
-    "Application.SecondLargest.executor": "Run",
-    "Application.SortedTest.executor": "Run",
-    "Application.SplitUseCase.executor": "Run",
-    "Application.StudentDemo.executor": "Run",
-    "Application.SubarraySum.executor": "Run",
-    "Application.SupplierDemo.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TestEmployee.executor": "Run",
-    "Application.TestStrategy.executor": "Run",
-    "Application.bin.com.hky.java21.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hare/Desktop/CoreJava1/com/hky",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlternateElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletedFutureTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsumerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountConsistentStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstAndFindAny.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstNonRepeatCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlatMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupBased.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupBasedOnLenght.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java8Code.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PangramCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PersonDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Predicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitUseCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SupplierDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestStrategy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bin.com.hky.java21.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hare/Desktop/CoreJava1/com/hky&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/hky" />
@@ -117,13 +119,13 @@
       <recent name="com.hky.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedTest">
-    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.completedFuture.exceptions.ExceptionTest" />
+  <component name="RunManager" selected="Application.TestEmployee">
+    <configuration name="CountConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.leetcode.strings.CountConsistentStrings" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.completedFuture.exceptions.*" />
+          <option name="PATTERN" value="com.hky.leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.PrimitiveExample" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.leetcode.strings.LongestCommonPrefix" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimitiveExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.PrimitiveExample1" />
-      <module name="CoreJava1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
+          <option name="PATTERN" value="com.hky.leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,13 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.TestEmployee" />
+      <module name="CoreJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEmployee" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.CountConsistentStrings" />
         <item itemvalue="Application.SortedTest" />
         <item itemvalue="Application.ReferenceExample" />
-        <item itemvalue="Application.PrimitiveExample1" />
-        <item itemvalue="Application.PrimitiveExample" />
-        <item itemvalue="Application.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
