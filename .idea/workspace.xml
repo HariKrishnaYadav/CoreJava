@@ -3,12 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6a48a7e2-6e3a-446f-83ab-36133ee87175" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/strings/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/basic/program/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/ErrorCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/ErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/ErrorLogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/Java8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/FindNumberOfOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/FindSecondHighest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/RemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/ReverseEachWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/DivideEvenOddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FilterNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindNumberOfOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindNumberProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindTrueIfDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindVowelWithSpecifiedNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/GroupOfAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/LogestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/MultiplyAternativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/PushZerosToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/Sortnumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/pattern/RightTrangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/leetcode/pattern/SolidPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/strings/methods/StringAllMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/SortedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/TestEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/FindFirstRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/FindFirstRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/FindNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/FindNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/leetcode/strings/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/leetcode/strings/LengthOfLastWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,81 +67,137 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HariKrishnaYadav&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HariKrishnaYadav/CoreJava.git&quot;,
+    &quot;accountId&quot;: &quot;c63e3c42-e7b5-40b7-b602-17e11a740a55&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3FAcMMjVgYQ2On2C68iZPjPHQ69" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AlternateElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommonChars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommonString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletedFutureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsumerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountConsistentStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstAndFindAny.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstNonRepeatCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstRepeatedCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindSecondRepeatedCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlatMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupBased.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupBasedOnLenght.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java8Code.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PangramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PersonDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Predicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReferenceExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitUseCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SupplierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TestEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestStrategy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bin.com.hky.java21.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hare/Desktop/CoreJava1/com/hky&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddTwoNumbers.executor": "Run",
+    "Application.AlternateElements.executor": "Run",
+    "Application.AnagramCheck.executor": "Run",
+    "Application.ArrayExample.executor": "Run",
+    "Application.BankAccount.executor": "Run",
+    "Application.BankTest.executor": "Run",
+    "Application.BookTest.executor": "Run",
+    "Application.CommonChars.executor": "Run",
+    "Application.CommonString.executor": "Run",
+    "Application.CompletableFutureExample.executor": "Run",
+    "Application.CompletedFutureTest.executor": "Run",
+    "Application.ConsumerDemo.executor": "Run",
+    "Application.CountConsistentStrings.executor": "Debug",
+    "Application.CountWords.executor": "Run",
+    "Application.CountWorld.executor": "Run",
+    "Application.DivideEvenOddNumber.executor": "Run",
+    "Application.ErrorCounter.executor": "Run",
+    "Application.ErrorLogTest.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExecutorTest.executor": "Run",
+    "Application.FilterNumber.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
+    "Application.FindDuplicateNumber.executor": "Run",
+    "Application.FindFirstAndFindAny.executor": "Run",
+    "Application.FindFirstNonRepeatCharacter.executor": "Run",
+    "Application.FindFirstRepeatedCharacter.executor": "Run",
+    "Application.FindNonRepeatedCharacter.executor": "Run",
+    "Application.FindNumberOfOccurence.executor": "Run",
+    "Application.FindNumberProduct.executor": "Run",
+    "Application.FindRange.executor": "Debug",
+    "Application.FindSecondHighest.executor": "Run",
+    "Application.FindSecondRepeatedCharacter.executor": "Run",
+    "Application.FindVowelWithSpecifiedNumber.executor": "Run",
+    "Application.FlatMapTest.executor": "Run",
+    "Application.GroupBased.executor": "Run",
+    "Application.GroupBasedOnLenght.executor": "Run",
+    "Application.GroupOfAnagram.executor": "Run",
+    "Application.IndexesOfSubarraySum.executor": "Run",
+    "Application.Java8Code.executor": "Run",
+    "Application.JavaMap.executor": "Run",
+    "Application.Lambda.executor": "Run",
+    "Application.LengthOfLastWord.executor": "Run",
+    "Application.LogestString.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MapTest.executor": "Run",
+    "Application.MultiplyAternativeNumber.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
+    "Application.PangramCheck.executor": "Run",
+    "Application.Person.executor": "Debug",
+    "Application.PersonDemo.executor": "Debug",
+    "Application.Predicates.executor": "Run",
+    "Application.PrimitiveExample.executor": "Run",
+    "Application.PrimitiveExample1.executor": "Run",
+    "Application.PushZerosToEnd.executor": "Run",
+    "Application.ReferenceExample.executor": "Debug",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.ReverseEachWord.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RightTrangle.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "Application.SolidPattern.executor": "Run",
+    "Application.SortBasedOnNumberOccurrence.executor": "Run",
+    "Application.SortedTest.executor": "Run",
+    "Application.Sortnumber.executor": "Run",
+    "Application.SplitUseCase.executor": "Run",
+    "Application.StringAllMethod.executor": "Run",
+    "Application.StudentDemo.executor": "Run",
+    "Application.SubarraySum.executor": "Debug",
+    "Application.SupplierDemo.executor": "Run",
+    "Application.Test.executor": "Debug",
+    "Application.TestEmployee.executor": "Run",
+    "Application.TestStrategy.executor": "Run",
+    "Application.bin.com.hky.java21.Main.executor": "Run",
+    "Application.com.hky.interview.java8.basic.FindNumberOfOccurence.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hare/Desktop/CoreJava1/com/hky",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/hky" />
       <recent name="$PROJECT_DIR$/com/hky/number" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hky.interview.java8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bin.com.hky.designPattern.singleton" />
@@ -119,13 +205,13 @@
       <recent name="com.hky.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEmployee">
-    <configuration name="CountConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.leetcode.strings.CountConsistentStrings" />
+  <component name="RunManager" selected="Application.Sortnumber">
+    <configuration name="FindNumberProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.FindNumberProduct" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.leetcode.strings.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.leetcode.strings.LongestCommonPrefix" />
+    <configuration name="GroupOfAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.GroupOfAnagram" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.leetcode.strings.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +232,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.ReferenceExample" />
+    <configuration name="MultiplyAternativeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.MultiplyAternativeNumber" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.SortedTest" />
+    <configuration name="PushZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.PushZerosToEnd" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.TestEmployee" />
+    <configuration name="Sortnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.Sortnumber" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEmployee" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.CountConsistentStrings" />
-        <item itemvalue="Application.SortedTest" />
-        <item itemvalue="Application.ReferenceExample" />
+        <item itemvalue="Application.Sortnumber" />
+        <item itemvalue="Application.PushZerosToEnd" />
+        <item itemvalue="Application.MultiplyAternativeNumber" />
+        <item itemvalue="Application.GroupOfAnagram" />
+        <item itemvalue="Application.FindNumberProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783133983955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1783597875318</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1783597875319</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,6 +467,141 @@
           <line>11</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/IndexesOfSubarraySum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/arrays/SubarraySum.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/CountConsistentStrings.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/CountConsistentStrings.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/CountConsistentStrings.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/CountConsistentStrings.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/CountConsistentStrings.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/LengthOfLastWord.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/leetcode/strings/LengthOfLastWord.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/java8/basic/FindRange.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/hky/interview/java8/basic/FindRange.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/hky/interview/Test.java</url>
           <line>4</line>
@@ -390,6 +619,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/hky/interview/java8/basic/FindNumberProduct.java</url>
+          <line>6</line>
+          <properties class="com.hky.interview.java8.basic.FindNumberProduct" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

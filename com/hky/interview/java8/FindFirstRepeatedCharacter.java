@@ -1,4 +1,4 @@
-package com.hky.interview;
+package com.hky.interview.java8;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
