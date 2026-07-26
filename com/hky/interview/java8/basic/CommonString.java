@@ -1,4 +1,4 @@
-package com.hky.interview;
+package com.hky.interview.java8.basic;
 
 public class CommonString {
     public static void main(String[] args) {

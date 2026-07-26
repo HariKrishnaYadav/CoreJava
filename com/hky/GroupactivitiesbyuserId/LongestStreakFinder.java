@@ -1,4 +1,4 @@
-/*
+
 package com.hky.GroupactivitiesbyuserId;
 
 import java.time.LocalDate;
@@ -6,12 +6,12 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Gatherers;
 
-//import java.util.stream.Gatherers;
-//Scenario:
-*/
-/*You are building an analytics feature for a social media platform. You track daily user activity: each day a user performs an action (like posting, commenting, or liking), it’s recorded as an activity entry with a user ID and a date.
+import java.util.stream.Gatherers;
 
-You want to determine the longest streak of consecutive active days for each user.*//*
+
+//You are building an analytics feature for a social media platform. You track daily user activity: each day a user performs an action (like posting, commenting, or liking), it’s recorded as an activity entry with a user ID and a date.
+
+//You want to determine the longest streak of consecutive active days for each user.*//*
 
 public class LongestStreakFinder {
 
@@ -121,4 +121,4 @@ public class LongestStreakFinder {
         resultJava24 .forEach((user, streak) ->
                 System.out.println(user + " longest streak: " + streak));
     }
-}*/
+}

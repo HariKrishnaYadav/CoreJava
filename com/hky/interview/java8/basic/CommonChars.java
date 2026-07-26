@@ -1,4 +1,4 @@
-package com.hky.interview;
+package com.hky.interview.java8.basic;
 
 import java.util.*;
 import java.util.stream.*;
@@ -16,6 +16,6 @@ public class CommonChars {
           .mapToObj(c -> (char) c)
           .distinct()
           .filter(set2::contains)
-          .forEach(System.out::println);
+          .forEach(System.out::print);
     }
 }
