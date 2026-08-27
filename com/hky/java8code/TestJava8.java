@@ -69,6 +69,8 @@ public class TestJava8 {
                 list.stream().filter(e->e.getAge()==maxAge.get()).forEach(e-> System.out.println("name::"+e.getName()+":::"+e.getAge()));
             }
 
+
+
             list.stream().max(Comparator.comparing(Employee::getSalary)).ifPresent(e -> System.out.println(e.getAge()));
            // list.stream().filter(checkBonus()).collect(Collectors.toList());
         }

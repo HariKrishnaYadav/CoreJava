@@ -3,20 +3,25 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="444a9ddd-f7ea-4988-bf0f-fc7dc62860dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindSecondHighest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/SortByAlphabetically.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/SumInteger.java" afterDir="false" />
+    <list default="true" id="444a9ddd-f7ea-4988-bf0f-fc7dc62860dd" name="Changes" comment="added interview program">
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/UserCompactConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/UserExplicitCanonicalConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/functional/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindNonRepeatingIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/ReverseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/StreamUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/GroupactivitiesbyuserId/LongestStreakFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/GroupactivitiesbyuserId/LongestStreakFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/CommonChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/CommonChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/CommonString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/CommonString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/Java8Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hky/interview/java8/FindNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/FindNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/PrimitiveExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/PrimitiveExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/Call/by/Value/in/Different/Scenarios/ReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/FindDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/interview/java8/basic/PushZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/interview/java8/basic/PushZerosToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/java8code/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/java8code/TestEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/hky/java8code/TestJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/hky/java8code/TestJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,15 +82,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.CommonChars.executor&quot;: &quot;Run&quot;,
     &quot;Application.CommonString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivideEvenOddNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErrorLogTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindRange.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindSecondHighest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupOfAnagram.executor&quot;: &quot;Run&quot;,
     &quot;Application.Java8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java8Code.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestStreakFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicate.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWord.executor&quot;: &quot;Run&quot;,
     &quot;Application.SortByAlphabetically.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortnumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamUseCase.executor&quot;: &quot;Run&quot;,
     &quot;Application.com.hky.interview.ReverseString.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -94,13 +114,18 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseString">
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.FindDuplicate" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hky.interview.java8.basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReferenceExample">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.ArrayExample" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
+          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.java8code.arrays.FindDuplicateNumber" />
+    <configuration name="FindSecondHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.FindSecondHighest" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.java8code.arrays.*" />
+          <option name="PATTERN" value="com.hky.interview.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.Java8" />
+    <configuration name="PrimitiveExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.PrimitiveExample" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.java8.basic.ReverseString" />
+    <configuration name="PrimitiveExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.PrimitiveExample1" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.java8.basic.*" />
+          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hky.interview.ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hky.interview.ReverseString" />
+    <configuration name="ReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hky.Call.by.Value.in.Different.Scenarios.ReferenceExample" />
       <module name="CoreJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hky.interview.*" />
+          <option name="PATTERN" value="com.hky.Call.by.Value.in.Different.Scenarios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.com.hky.interview.ReverseString" />
-        <item itemvalue="Application.FindDuplicateNumber" />
-        <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.Java8" />
+        <item itemvalue="Application.ReferenceExample" />
+        <item itemvalue="Application.PrimitiveExample1" />
+        <item itemvalue="Application.PrimitiveExample" />
+        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.FindSecondHighest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +203,19 @@
       <option name="presentableId" value="Default" />
       <updated>1784697425084</updated>
     </task>
+    <task id="LOCAL-00001" summary="added interview program">
+      <option name="closed" value="true" />
+      <created>1785052154651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785052154651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added interview program" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interview program" />
   </component>
 </project>

@@ -13,4 +13,5 @@ public class ArrayExample {
     }
 }
 
-//Explanation: The method receives a copy of the array reference. Changes to the array’s elements are reflected outside the method, but reassigning the array reference affects only the local copy.
+//Explanation: The method receives a copy of the array reference. Changes to the array’s elements are reflected outside the method,
+// but reassigning the array reference affects only the local copy.

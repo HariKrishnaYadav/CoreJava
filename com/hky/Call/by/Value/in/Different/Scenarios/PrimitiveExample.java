@@ -4,7 +4,9 @@ package com.hky.Call.by.Value.in.Different.Scenarios;
 // is passed to a method, a copy of its value is made. Any changes to the parameter within the called method does not affect variable’s original value in calling method.
 public class PrimitiveExample {
     public static void modifyPrimitive(int num) {
+        System.out.println("before::"+num);
         num = 42; // Changes local copy
+        System.out.println("After::"+num);
     }
     public static void main(String[] args) {
         int x = 10;

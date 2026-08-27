@@ -68,6 +68,7 @@ public class TestEmployee {
         employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment, Collectors.maxBy(Comparator.comparing(Employee::getSalary)))).forEach((k, v) -> {
             System.out.println("Department::" + k + "----" + v);
         });
+
     }
 
 

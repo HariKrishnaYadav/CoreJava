@@ -7,9 +7,9 @@ import java.util.Set;
 
 public class FindDuplicate {
     static void main(String[] args) {
-        List<Integer> nums = Arrays.asList(1, 2, 3, 2, 4, 5, 1);
+        List<Integer> nums = Arrays.asList(1, 2, 3, 2, 4, 5, 1,2);
         Set<Integer>   set=new HashSet<>();
-       List<Integer> res=nums.stream().filter(i->!set.add(i)).toList();
+       List<Integer> res=nums.stream().filter(i->!set.add(i)).distinct().toList();
         System.out.println(res);
 
 

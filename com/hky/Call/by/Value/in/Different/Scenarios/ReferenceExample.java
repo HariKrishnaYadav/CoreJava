@@ -2,7 +2,9 @@ package com.hky.Call.by.Value.in.Different.Scenarios;
 
 public class ReferenceExample {
     public static void modifyObject(MyObject obj) {
+        System.out.println("before::"+obj.value);
         obj.value = 42; // Modifies the object's state
+        System.out.println("after::"+obj.value);
     }
 
     public static void main(String[] args) {
