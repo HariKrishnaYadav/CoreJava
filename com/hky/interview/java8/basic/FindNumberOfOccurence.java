@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class FindNumberOfOccurence {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         String str="basgdhjehwyiudjs";
         Arrays.stream(str.split("")).collect(Collectors.groupingBy(f->f, Collectors.counting())).entrySet().stream().forEach(k->{
             System.out.println(k.getKey()+"  "+k.getValue());

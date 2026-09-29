@@ -1,7 +1,7 @@
 package com.hky.interview.java8.basic;
 
 public class FindTrueIfDuplicate {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
     }
 }

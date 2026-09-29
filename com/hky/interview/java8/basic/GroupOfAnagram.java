@@ -6,11 +6,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class GroupOfAnagram {
-    static void main(String[] args) {
+public class
+GroupOfAnagram {
+   public static void main(String[] args) {
       String[]  words_list = {"eat", "tea", "tan", "ate", "nat", "bat"};
-     Collection<List<String>> result=Arrays.stream(words_list).collect(Collectors.groupingBy(x->Arrays.stream(x.toLowerCase()
-              .split("")).sorted().collect(Collectors.joining()))).values();
+     Collection<List<String>> result=Arrays.stream(words_list).
+             collect(Collectors.groupingBy(x->Arrays.stream(x.toLowerCase()
+              .split(""))
+                     .sorted()
+                     .collect(Collectors.joining()))).values();
         System.out.println(result);
     }
 }

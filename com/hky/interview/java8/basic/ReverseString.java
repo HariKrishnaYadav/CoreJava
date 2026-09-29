@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class ReverseString {
 
-    static void main(String[] args) {
+  public   static void main(String[] args) {
         String str="hare krishna yadav";
         String res = Arrays.stream(str.split(" ")).
                 map(words -> new StringBuilder(words)

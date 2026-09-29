@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class DivideEvenOddNumber {
 
-    static void main(String[] args) {
+    public static void main(String[] args){
         Integer number[]={1,2,3,4,5,6,7,8,7,8,9,0,12,34,567};
         Map<String, List<Integer>> result = Arrays.stream(number).collect(Collectors.groupingBy(i -> i % 2 == 0 ? "even" : "odd"));
         System.out.println(result);

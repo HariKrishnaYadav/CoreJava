@@ -1,7 +1,7 @@
 package com.hky.interview.java8.basic;
 
 public class ReverseWord {
-    static void main() {
+    public static void main(String[] args) {
         String str="java is important language";
         System.out.println(reverseWord(str));
     }

@@ -3,7 +3,7 @@ package com.hky.interview.java8.basic;
 import java.util.Arrays;
 
 public class FilterNumber {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String[] str = {
                 "hsre",
                 "123",
